@@ -1,0 +1,7 @@
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('bootstrap/css/bootstrap.min.css') }}">
+@extends('templates.default')
+
+@section('content')
+	<h3>Oops!!! that page could not be found.</h3>
+	<a href="{{ route('home')}}">Go home</a>
+@endsection
